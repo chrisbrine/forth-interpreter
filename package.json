@@ -1,0 +1,35 @@
+{
+  "name": "forth-interpreter",
+  "version": "0.1.0",
+  "description": "A simple Forth language interpreter that is compilable and expandable",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "forth",
+    "interpreter",
+    "compilable",
+    "expandable"
+  ],
+  "author": "Chris Brine <chrisbrine.web@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisbrine/forth-interpreter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chrisbrine/forth-interpreter/issues"
+  },
+  "homepage": "https://github.com/chrisbrine/forth-interpreter#readme",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.11.1",
+    "@types/eslint__js": "^8.42.3",
+    "eslint": "^9.11.1",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.2",
+    "typescript-eslint": "^8.8.0"
+  }
+}
